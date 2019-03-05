@@ -2,7 +2,8 @@
 
 To install aergo on Mac OS, the easiest way is to use [Homebrew](https://brew.sh/).
 
-    brew install aergoio/aergo
+    brew tap aergoio/aergo
+    brew install aergo
 
 ## Development
 
