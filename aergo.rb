@@ -3,12 +3,12 @@ require "language/go"
 class Aergo < Formula
   desc "Official Aergo server and tools"
   homepage "https://github.com/aergoio/aergo"
-  url "https://github.com/aergoio/aergo.git", :tag => "v0.12.0"
+  url "https://github.com/aergoio/aergo.git", :tag => "v0.12.1"
 
   bottle do
-    root_url "https://github.com/aergoio/aergo/releases/download/v0.12.0/aergo-0.12.0.osx.tar.gz?"
-    sha256 "edb2f0e6cc0ed1c9b1a7dc59142652f283439650c31ea987780b1086998a133b" => :high_sierra
-    sha256 "edb2f0e6cc0ed1c9b1a7dc59142652f283439650c31ea987780b1086998a133b" => :mojave
+    root_url "https://github.com/aergoio/aergo/releases/download/v0.12.1/aergo-0.12.1.osx.tar.gz?"
+    sha256 "e45f8dcb2851d9c7ea93b7502f679ed7bd703d64be136d53fe445f583890a078" => :high_sierra
+    sha256 "e45f8dcb2851d9c7ea93b7502f679ed7bd703d64be136d53fe445f583890a078" => :mojave
   end
 
   depends_on :macos => :high_sierra
