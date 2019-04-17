@@ -13,7 +13,6 @@ class Aergo < Formula
 
   depends_on :macos => :high_sierra
 
-  depends_on "gmp"
   depends_on "go" => :build
   depends_on "cmake" => :build
   depends_on "glide" => :build
